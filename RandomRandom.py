@@ -35,6 +35,8 @@ def start():
                 sleep(0.5)
             elif keyboard.is_pressed('shift') and keyboard.is_pressed('alt') and keyboard.is_pressed('w'):
                 break
+                
+            sleep(0.1)
 
 
 start()
